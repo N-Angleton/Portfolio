@@ -10,7 +10,12 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/edits.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
 	</head>
 	<body class="is-preload">
 
@@ -18,70 +23,74 @@
 			<div id="wrapper" class="divided">
 
 				<!-- Bio -->
-					<section class="banner style1 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right invert">
+					<section class="banner style1 orient-left content-align-right image-position-center fullscreen onload-image-fade-in onload-content-fade-right border">
 						<div class="content">
 							<h1>Nicholas Angleton</h1>
               <h2>Software Engineer</h2>
-              <h3>New York, NY</h3>
 							<p class="major">I am passionate about problem solving and abstract analysis.</p>
-							<ul class="actions">
-								<li><a href="#first" class="button big wide smooth-scroll-middle">Get Started</a></li>
-							</ul>
+							<!-- <ul class="icons">
+                <li><a href="#first" class="button big wide smooth-scroll-middle">Projects</a></li>
+							</ul> -->
+              <h3>New York, NY</h3>
               <div class="inner">
                 <ul class="icons">
-                  <li><a href="https://github.com/N-Angleton" class="icon brands style2 fa-github" target="_blank"><span class="label">Github</span></a></li>
+                  <li><a href="https://github.com/N-Angleton" class="icon brands style2 fa-github" target="_blank"><span class="label">GitHub</span></a></li>
                   <li><a href="https://www.linkedin.com/in/nhangleton/" class="icon brands style2 fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
                   <li><a href="mailto: nick.angleton@gmail.com" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
                   <li><a href="https://angel.co/nicholas-angleton" class="icon brands style2 fa-angellist" target="_blank"><span class="label">AngelList</span></a></li>
+                  <li><a href="#" class="icon solid style2 fa-download" target="_blank"><span class="label">Download</span></a></li>
                 </ul>
               </div>
 						</div>
 						<div class="image">
 							<img src="images/headshot.jpg" alt="" />
 						</div>
+					</section>     
+
+        <!-- The Gram -->
+          <section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in border" id="first">
+            <div class="content">
+              <h2>The Gram</h2>
+              <p>The Gram is a fullstack clone of the image sharing site Instagram. Using a Rails backend and a PostgreSql database, it replicates the CRUD functionality behind following users, sharing images, writing comments, and liking posts. Additionally, using a React/Redux frontend, it emulates the minimalist layout and color palette of the original site.</p>
+              <ul class="actions">
+                <li><a href="#" class="button">Live</a></li>
+                <li><a href="#" class="button">GitHub</a></li>
+              </ul>
+            </div>
+            <div class="image">
+              <img class="border-right" src="images/gram.png" alt="" />
+            </div>
+          </section>
+
+				<!-- WeGo -->
+					<section class="spotlight style1 orient-left content-align-right image-position-center onscroll-image-fade-in border">
+						<div class="content">
+							<h2>WeGo</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
+							<ul class="actions">
+								<li><a href="#" class="button">Live</a></li>
+                <li><a href="#" class="button">GitHub</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img class="border-left" src="images/wego.png" alt="" />
+						</div>
 					</section>
 
 				<!-- Etchify -->
-          <section class="spotlight style4 fullscreen orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
-            <div class="content">
-              <h2>Magna etiam feugiat</h2>
+          <section class="spotlight style4 fullscreen orient-right content-align-left image-position-center onscroll-image-fade-in">
+            <div class="content etchify">
+              <h2>Etchify</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
               <ul class="actions">
-                <li><a href="#" class="button">Learn More</a></li>
+                <li><a href="#" class="button">Live</a></li>
+                <li><a href="#" class="button">GitHub</a></li>
               </ul>
             </div>
             <div class="image">
               <img src="images/wave3.png" alt="" />
             </div>
-          </section>        
-
-        <!-- The Gram -->
-          <section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in color5">
-            <div class="content">
-              <h2>Tempus adipiscing</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
-              <ul class="actions">
-                <li><a href="#" class="button">Learn More</a></li>
-              </ul>
-            </div>
-            <div class="image">
-              <img src="images/gram.png" alt="" />
-            </div>
           </section>
-
-				<!-- WeGo -->
-					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
-						<div class="content">
-							<h2>Pharetra etiam nulla</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
-							<ul class="actions">
-								<li><a href="#" class="button">Learn More</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/wego.png" alt="" />
-						</div>
-					</section>
 
         <!-- Education -->
           <section class="wrapper style1 align-center">
@@ -167,7 +176,7 @@
 					<footer class="wrapper style1 align-center">
 						<div class="inner">
 							<ul class="icons">
-								<li><a href="https://github.com/N-Angleton" class="icon brands style2 fa-github" target="_blank"><span class="label">Github</span></a></li>
+								<li><a href="https://github.com/N-Angleton" class="icon brands style2 fa-github" target="_blank"><span class="label">GitHub</span></a></li>
 								<li><a href="https://www.linkedin.com/in/nhangleton/" class="icon brands style2 fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
 								<li><a href="mailto: nick.angleton@gmail.com" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
                 <li><a href="https://angel.co/nicholas-angleton" class="icon brands style2 fa-angellist" target="_blank"><span class="label">AngelList</span></a></li>
