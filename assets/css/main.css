@@ -5486,6 +5486,15 @@ input, select, textarea {
 			border-radius: 0.5rem;
 			margin-bottom: 2rem;
 			z-index: 1;
+
+      box-sizing: border-box;
+      position: absolute;
+      border-radius: 0;
+      max-width: 40%;
+      top: 0;
+      /* border-left: 2px solid rgb(219, 219, 219);
+      border-bottom: 2px solid rgb(219, 219, 219); */
+      outline: 2px solid rgb(219, 219, 219);
 		}
 
 		.spotlight.style4 .image {
